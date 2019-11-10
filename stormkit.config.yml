@@ -1,0 +1,17 @@
+app:
+  - redirects:
+      - from: /_next/*
+        cdn: true
+
+      - from: /static/*
+        to: /_next/static/
+        replace: true
+        cdn: true
+
+    envs:
+      - name: production
+        branch: master
+        publish: true
+        entry: next.config.js
+        cmd: yarn build && cp -R static/* .next/static
+        dist: .next
