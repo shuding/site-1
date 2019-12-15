@@ -10,8 +10,8 @@ export default () => (
     <Title />
 
     <section>
-      <h2>Just call me</h2>
-      <h1>Leonard Lamprecht</h1>
+      <h2>Just Call Me</h2>
+      <h1>Leo</h1>
     </section>
 
     <nav>
