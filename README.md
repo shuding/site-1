@@ -2,8 +2,6 @@
 
 [![Build status](https://circleci.com/gh/leo/site.svg?&style=shield)](https://circleci.com/gh/leo/site)
 
-Testing
-
 ## Contributing
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) this repository to your own GitHub account and then [clone](https://help.github.com/articles/cloning-a-repository/) it to your device
