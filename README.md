@@ -1,6 +1,6 @@
 # leo.im
 
-[![Build status](https://circleci.com/gh/leo/site.svg?&style=shield)](https://circleci.com/gh/leo/site)
+[![Build Status](https://circleci.com/gh/leo/site.svg?&style=shield)](https://circleci.com/gh/leo/site)
 
 ## Contributing
 
