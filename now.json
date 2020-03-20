@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "TEST_SECRET": "@client-id"
+    }
+  }
+}
