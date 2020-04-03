@@ -7,7 +7,6 @@
     "test": "eslint .",
     "precommit": "lint-staged"
   },
-  "license": "MIT",
   "babel": {
     "presets": [
       "next/babel"
@@ -16,6 +15,7 @@
       "markdown-in-js/babel"
     ]
   },
+  "license": "MIT",
   "repository": "leo/site",
   "eslintConfig": {
     "parser": "babel-eslint",
