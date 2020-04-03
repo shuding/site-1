@@ -7,7 +7,14 @@
     "test": "eslint .",
     "precommit": "lint-staged"
   },
-  "babel": {
+  "lint-staged": {
+    "*.js": [
+      "yarn test",
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ]
+  },
+   "babel": {
     "presets": [
       "next/babel"
     ],
@@ -40,14 +47,7 @@
       "react/prop-types": 0
     }
   },
-  "lint-staged": {
-    "*.js": [
-      "yarn test",
-      "prettier --single-quote --no-semi --write",
-      "git add"
-    ]
-  },
-  "dependencies": {
+ "dependencies": {
     "is-absolute-url": "2.1.0",
     "markdown-in-js": "1.1.4",
     "moment": "2.22.2",
