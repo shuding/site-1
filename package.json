@@ -8,7 +8,6 @@
     "precommit": "lint-staged"
   },
   "license": "MIT",
-  "repository": "leo/site",
   "babel": {
     "presets": [
       "next/babel"
@@ -17,6 +16,7 @@
       "markdown-in-js/babel"
     ]
   },
+  "repository": "leo/site",
   "eslintConfig": {
     "parser": "babel-eslint",
     "parserOptions": {
