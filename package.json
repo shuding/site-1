@@ -14,7 +14,7 @@
       "git add"
     ]
   },
-   "babel": {
+  "babel": {
     "presets": [
       "next/babel"
     ],
@@ -47,7 +47,8 @@
       "react/prop-types": 0
     }
   },
- "dependencies": {
+  "dependencies": {
+    "@babel/helper-create-regexp-features-plugin": "7.8.8",
     "is-absolute-url": "2.1.0",
     "markdown-in-js": "1.1.4",
     "moment": "2.22.2",
