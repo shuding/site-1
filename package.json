@@ -3,7 +3,7 @@
   "version": "3.0.5",
   "scripts": {
     "dev": "next",
-    "build": "echo $HOHO && next build",
+    "build": "echo $HOHO",
     "test": "eslint .",
     "precommit": "lint-staged"
   },
