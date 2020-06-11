@@ -1,8 +1,8 @@
 {
     "redirects": [
         {
-            "source": "/:hehe",
-            "destination": "/:haha"
+            "source": "/hey?test=22",
+            "destination": "/hi"
         }
     ]
 }
