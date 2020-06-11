@@ -1,5 +1,14 @@
 {
     "redirects": [
-        { "source": "/haha", "destination": "/hohdsaadsdsao" }
+        {
+            "source": "/haha",
+            "destination": "/hoho"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/lol",
+            "destination": "/lel"
+        }
     ]
 }
