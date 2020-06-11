@@ -1,8 +1,8 @@
 {
-    "redirects": [
+    "builds": [
         {
-            "source": "/hey?test=22",
-            "destination": "/hi"
+            "src": "package.json",
+            "use": "@vercel/next"
         }
     ]
 }
