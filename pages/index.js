@@ -11,6 +11,8 @@ const Index = () => (
       <meta name="description" content="Head of Product, Vercel"/>
       <meta name="twitter:site" content="@notquiteleo" />
       <meta name="twitter:creator" content="@notquiteleo" />
+
+      <link rel="icon" href="/initials.png" type="image/png" />
     </Head>
 
     <section>
