@@ -8,11 +8,11 @@ const Index = () => (
       <title>Leo Lamprecht</title>
 
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-      <meta name="description" content="Head of Product, Vercel"/>
+      <meta name="description" content="Head of Product, Vercel" />
       <meta name="twitter:site" content="@notquiteleo" />
       <meta name="twitter:creator" content="@notquiteleo" />
 
-      <link rel="icon" href="/initials.png" type="image/png" />
+      <link rel="icon" href="/initials.svg" />
     </Head>
 
     <section>
