@@ -15,12 +15,9 @@ export default () => (
     </section>
 
     <nav>
-      <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
-      <Link href="/essays" prefetch>
-        <a>Long Thoughts</a>
-      </Link>
-      <a href="https://github.com/leo">Code</a>
-      <a href="https://dribbble.com/notquiteleo">Visuals</a>
+      <a href="https://twitter.com/notquiteleo">Twitter</a>
+      <a href="https://github.com/leo">GitHub</a>
+      <a href="https://dribbble.com/notquiteleo">Dribbble</a>
     </nav>
 
     <style jsx>
