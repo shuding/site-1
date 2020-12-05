@@ -1,13 +1,19 @@
-// Components
-import Link from 'next/link'
-import Title from '../components/title'
+import Head from 'next/head'
 
-// Layouts
-import Page from '../layouts/page'
+export default () =>
+  <main>
+    <Head>
+      <title>Leo Lamprecht</title>
 
-export default () => (
-  <Page>
-    <Title />
+      <link rel="mask-icon" href="http://leo.im/static/lightning.svg" color="#000000" />
+      <link rel="apple-touch-icon" href="/static/touch-icon.png" />
+      <link rel="icon" href="/static/touch-icon.png" type="image/png" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <meta name="description" content="Head of Product, Vercel"/>
+      <meta name="twitter:site" content="@notquiteleo" />
+      <meta name="twitter:creator" content="@notquiteleo" />
+    </Head>
 
     <section>
       <h2>Just call me</h2>
@@ -23,6 +29,13 @@ export default () => (
 
     <style jsx>
       {`
+        main {
+          padding: 30px;
+          box-sizing: border-box;
+          position: relative;
+          min-height: 100%;
+        }
+
         section h1 {
           font-size: 57px;
           left: 35px;
@@ -57,6 +70,10 @@ export default () => (
         }
 
         @media (min-width: 768px) {
+          main {
+            padding: 45px;
+          }
+
           section {
             position: absolute;
             left: 0;
@@ -141,5 +158,27 @@ export default () => (
         }
       `}
     </style>
-  </Page>
-)
+
+    <style jsx global>
+      {`
+        body {
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+          margin: 0;
+          -webkit-font-smoothing: antialiased;
+        }
+
+        html,
+        body {
+          height: 100%;
+        }
+
+        body > div:first-child,
+        body > div:first-child > div:first-child,
+        body > div:first-child > div:first-child > div {
+          height: inherit;
+        }
+      `}
+    </style>
+  </main>
