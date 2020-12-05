@@ -66,7 +66,7 @@ export default ({ children }) =>
       />
       <meta
         name="description"
-        content="A teenagers view on web development and intuitive UI design."
+        content="Head of Product, Vercel"
       />
       <meta name="twitter:site" content="@notquiteleo" />
       <meta name="twitter:creator" content="@notquiteleo" />
