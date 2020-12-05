@@ -7,10 +7,6 @@ const Index = () => (
     <Head>
       <title>Leo Lamprecht</title>
 
-      <link rel="mask-icon" href={`${root}/static/lightning.svg`} color="#000000" />
-      <link rel="apple-touch-icon" href={`${root}/static/touch-icon.png`} />
-      <link rel="icon" href={`${root}/static/touch-icon.png`} type="image/png" />
-
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="Head of Product, Vercel"/>
       <meta name="twitter:site" content="@notquiteleo" />
