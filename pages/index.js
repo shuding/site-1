@@ -1,13 +1,15 @@
 import Head from 'next/head'
 
-export default () =>
+const root = 'https://leo.im'
+
+const Index = () => (
   <main>
     <Head>
       <title>Leo Lamprecht</title>
 
-      <link rel="mask-icon" href="http://leo.im/static/lightning.svg" color="#000000" />
-      <link rel="apple-touch-icon" href="/static/touch-icon.png" />
-      <link rel="icon" href="/static/touch-icon.png" type="image/png" />
+      <link rel="mask-icon" href={`${root}/static/lightning.svg`} color="#000000" />
+      <link rel="apple-touch-icon" href={`${root}/static/touch-icon.png`} />
+      <link rel="icon" href={`${root}/static/touch-icon.png`} type="image/png" />
 
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       <meta name="description" content="Head of Product, Vercel"/>
@@ -21,10 +23,10 @@ export default () =>
     </section>
 
     <nav>
-      <a href="https://vercel.com">Vercel</a>
-      <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
-      <a href="https://github.com/leo">Code</a>
-      <a href="https://dribbble.com/notquiteleo">Visuals</a>
+      <a href="https://vercel.com" target="_blank">Mission</a>
+      <a href="https://twitter.com/notquiteleo" target="_blank">Thoughts</a>
+      <a href="https://github.com/leo" target="_blank">Code</a>
+      <a href="https://dribbble.com/notquiteleo" target="_blank">Visuals</a>
     </nav>
 
     <style jsx>
@@ -96,8 +98,7 @@ export default () =>
             top: auto;
             padding-right: 0;
             font-size: 73px;
-            color: #454545;
-            font-weight: 200;
+            font-weight: 300;
           }
 
           section h1::before,
@@ -124,7 +125,7 @@ export default () =>
           section h2 {
             margin: 8px 40px 0 0;
             display: inline-block;
-            font-weight: 200;
+            font-weight: 300;
           }
 
           nav {
@@ -139,7 +140,6 @@ export default () =>
           nav a {
             font-size: 15px;
             padding: 4px 10px;
-            color: #454545;
             display: inline-block;
             border-radius: 6px;
             margin: 0 5px;
@@ -182,3 +182,6 @@ export default () =>
       `}
     </style>
   </main>
+)
+
+export default Index
