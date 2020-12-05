@@ -15,9 +15,10 @@ export default () => (
     </section>
 
     <nav>
-      <a href="https://twitter.com/notquiteleo">Twitter</a>
-      <a href="https://github.com/leo">GitHub</a>
-      <a href="https://dribbble.com/notquiteleo">Dribbble</a>
+      <a href="https://vercel.com">Vercel</a>
+      <a href="https://twitter.com/notquiteleo">Short Thoughts</a>
+      <a href="https://github.com/leo">Code</a>
+      <a href="https://dribbble.com/notquiteleo">Visuals</a>
     </nav>
 
     <style jsx>
